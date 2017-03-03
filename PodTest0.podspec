@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 
   s.name         = "PodTest0"
   s.version      = "0.1.0"
-  s.summary      = "A short description of PodTest0."
+  s.summary      = "A short  PodTest0.xxx"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC A short description of PodTest0.XXXX lang ruiqiang
+  s.description  = <<-DESC
+A short description of PodTest0.XXXX lang ruiqiang
                    DESC
 
   s.homepage     = "https://github.com/langruiqiang/PodTest0"
@@ -91,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+#s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -129,7 +130,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
