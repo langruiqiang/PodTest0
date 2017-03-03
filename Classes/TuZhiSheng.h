@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TuZhiSheng : UIView
-@property (nonatomic , strong) UIImageView *imageView;
 
 + (void)log;
 
