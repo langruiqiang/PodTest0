@@ -15,7 +15,7 @@
 		294376FF1E68582700E920FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294376FD1E68582700E920FB /* LaunchScreen.storyboard */; };
 		2943770A1E68582700E920FB /* PodTest0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294377091E68582700E920FB /* PodTest0Tests.m */; };
 		294377151E68582700E920FB /* PodTest0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 294377141E68582700E920FB /* PodTest0UITests.m */; };
-		294377251E68586900E920FB /* TuZhiSheng.m in Sources */ = {isa = PBXBuildFile; fileRef = 294377241E68586900E920FB /* TuZhiSheng.m */; };
+		29929FBA1E691859000A528F /* TuTu.m in Sources */ = {isa = PBXBuildFile; fileRef = 29929FB91E691859000A528F /* TuTu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		294377101E68582700E920FB /* PodTest0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTest0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		294377141E68582700E920FB /* PodTest0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTest0UITests.m; sourceTree = "<group>"; };
 		294377161E68582700E920FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		294377231E68586900E920FB /* TuZhiSheng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuZhiSheng.h; sourceTree = "<group>"; };
-		294377241E68586900E920FB /* TuZhiSheng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuZhiSheng.m; sourceTree = "<group>"; };
+		29929FB81E691859000A528F /* TuTu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuTu.h; sourceTree = "<group>"; };
+		29929FB91E691859000A528F /* TuTu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuTu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		294377221E68585800E920FB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				294377231E68586900E920FB /* TuZhiSheng.h */,
-				294377241E68586900E920FB /* TuZhiSheng.m */,
+				29929FB81E691859000A528F /* TuTu.h */,
+				29929FB91E691859000A528F /* TuTu.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -289,10 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294377251E68586900E920FB /* TuZhiSheng.m in Sources */,
 				294376F71E68582700E920FB /* ViewController.m in Sources */,
 				294376F41E68582700E920FB /* AppDelegate.m in Sources */,
 				294376F11E68582700E920FB /* main.m in Sources */,
+				29929FBA1E691859000A528F /* TuTu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +530,7 @@
 				2943771B1E68582700E920FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2943771C1E68582700E920FB /* Build configuration list for PBXNativeTarget "PodTest0Tests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +539,7 @@
 				2943771E1E68582700E920FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2943771F1E68582700E920FB /* Build configuration list for PBXNativeTarget "PodTest0UITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +548,7 @@
 				294377211E68582700E920FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
