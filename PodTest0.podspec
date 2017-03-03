@@ -17,18 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "PodTest0"
   s.version      = "0.1.0"
-  s.summary      = "描述涂志胜日常生活."
+  s.summary      = "A short description of PodTest0."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-
-啊啊啊啊啊啊啊啊啊啊
-啊啊啊啊啊
-啊啊啊啊啊
+  s.description  = <<-DESC A short description of PodTest0.XXXX lang ruiqiang
                    DESC
 
   s.homepage     = "https://github.com/langruiqiang/PodTest0"
@@ -42,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "Apache License, Version 2.0"
+  s.license      = 'Apache License, Version 2.0"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,7 +52,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "开心小锣鼓" => "langrq@yonyou.com" }
+  s.author             = { "yonyou_einvoice" => "langrq@yonyou.com" }
   # Or just: s.author    = "yonyou_einvoice"
   # s.authors            = { "yonyou_einvoice" => "langrq@yonyou.com" }
   # s.social_media_url   = "http://twitter.com/yonyou_einvoice"
@@ -83,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source = { :git => "https://github.com/langruiqiang/PodTest0.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/langruiqiang/PodTest0.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -97,7 +93,7 @@ s.source = { :git => "https://github.com/langruiqiang/PodTest0.git", :tag => "0.
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "  /**/*.h"
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,7 +129,7 @@ s.source = { :git => "https://github.com/langruiqiang/PodTest0.git", :tag => "0.
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-   s.requires_arc = true
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
